@@ -1,0 +1,16 @@
+-- SELECT writers.name, AVG(reviews.rating)
+-- FROM writers
+-- JOIN books
+--     ON writers.writer_id = books.writer_id
+-- JOIN reviews
+--     ON books.book_id = reviews.book_id
+-- GROUP BY writers.name;
+
+-- SELECT writers.name, AVG(reviews.rating)
+-- FROM writers
+-- JOIN books
+--     ON writers.writer_id = books.writer_id
+-- JOIN reviews
+--     ON books.book_id = reviews.book_id
+-- GROUP BY writers.name
+-- HAVING AVG(reviews.rating) > 4;
